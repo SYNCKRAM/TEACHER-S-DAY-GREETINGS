@@ -14,6 +14,8 @@ A creative, professional Teachers' Day greeting card made with HTML, CSS, and Ja
 - Optional audio upload/playback directly in the browser
 - No backend or database required
 
+LIVE VIEW:  https://synckram.github.io/TEACHER-S-DAY-GREETINGS/
+
 ## Project Files
 
 - `index.html` — webpage structure and personalized message
