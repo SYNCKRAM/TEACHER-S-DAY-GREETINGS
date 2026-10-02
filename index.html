@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Sir Randy Bello — A Heartfelt Thank You</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sparkles" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="intro">
+      <p class="eyebrow">A LITTLE MESSAGE OF GRATITUDE</p>
+      <h1>For a Teacher Who Makes a Difference</h1>
+      <p class="subtitle">A special Teachers’ Day greeting for <strong>Sir Randy Bello</strong>.</p>
+
+      <button class="folder" id="openFolder" type="button" aria-label="Open the Teachers' Day message folder">
+        <span class="folder-back"></span>
+        <span class="folder-tab"></span>
+        <span class="folder-front">
+          <span class="folder-label">OPEN ME</span>
+          <span class="folder-line"></span>
+          <span class="folder-small">A message from your student</span>
+        </span>
+        <span class="click-hint">Click to open</span>
+      </button>
+
+      <p class="instruction">There is a little message waiting inside.</p>
+    </section>
+
+    <section class="letter-wrap" id="letterSection" aria-hidden="true">
+      <article class="letter">
+        <button class="close-letter" id="closeLetter" type="button" aria-label="Close message">×</button>
+
+        <div class="letter-top">
+          <div class="photo-frame">
+            <img src="teacher-photo.jpg" alt="Teacher portrait">
+          </div>
+          <div class="title-area">
+            <span class="mini-label">HAPPY TEACHERS’ DAY</span>
+            <h2>Dear Sir Randy Bello,</h2>
+            <p class="date-line">With sincere gratitude and appreciation</p>
+          </div>
+        </div>
+
+        <div class="message">
+          <p>
+            Today is a beautiful opportunity to say something that sometimes goes
+            unspoken: <strong>thank you.</strong>
+          </p>
+
+          <p>
+            Thank you for sharing not only your knowledge, but also your time,
+            patience, encouragement, and understanding. Every lesson you teach
+            becomes more than just a lesson—it becomes a small reminder that
+            learning can inspire us, challenge us, and help us believe in what
+            we can become.
+          </p>
+
+          <p>
+            We truly appreciate the effort you give, even on the days when it may
+            not be easy. Your guidance and the way you continue to encourage your
+            students leave a meaningful mark that we will carry with us beyond
+            the classroom.
+          </p>
+
+          <p>
+            A great teacher does not simply teach a subject. A great teacher
+            helps students discover their potential. <strong>Thank you for being
+            one of those teachers.</strong>
+          </p>
+
+          <p>
+            May you always know that your hard work matters, your kindness is
+            appreciated, and the lives you touch through teaching are better
+            because of you.
+          </p>
+
+          <p class="closing">
+            With heartfelt appreciation,<br>
+            <strong>Your grateful student</strong>
+          </p>
+        </div>
+
+        <div class="signature">
+          <span>Thank you for inspiring us.</span>
+          <span class="heart">♥</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="controls">
+      <button class="control-btn" id="musicButton" type="button">♫ Add / Play Audio</button>
+      <input id="audioInput" type="file" accept="audio/*" hidden>
+      <button class="control-btn secondary" id="replayButton" type="button">↻ Replay Animation</button>
+    </section>
+
+    <footer>
+      Made with gratitude • Teachers’ Day Message Card
+    </footer>
+  </main>
+
+  <audio id="audioPlayer" controls preload="metadata"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
